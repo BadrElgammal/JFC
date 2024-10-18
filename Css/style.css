@@ -1,0 +1,293 @@
+
+
+
+*
+{
+    font-family: "Urbanist", sans-serif;
+}
+
+
+.parent
+{
+    background-image: url(../images/pexels-photo-8693379.webp);
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-bottom: 100px;
+}
+.text1
+{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-weight: 300;
+}
+.text1 h1
+{
+    font-size: 60px;
+}
+.text1 p
+{
+    width: 500px;
+    font-size: 25px;
+    margin: 20px 0px;
+}
+.span-photo
+{
+    color: #b79632;
+}
+.button-photo
+{
+    font-family: "Urbanist", sans-serif;
+    font-size: 30px;
+    padding: 20px 80px;
+    color: white;
+    background-color: #b79632;
+    border-color:#b79632 ;
+    border-radius: 50px;
+    letter-spacing: 1.5px;
+    box-shadow: 1px 1px 5px rgb(0, 0, 0);
+    margin-top: 30px;
+    border: none;
+    cursor: pointer;
+    transition: 1s;
+} 
+.button-photo:hover
+{
+    background-color:#aa871f ;
+}
+@media screen and (max-width :900px)
+{
+    .parent
+    {
+        padding-left: 0px;
+    }
+    .button-photo
+    {
+        padding: 15px 50px;
+        font-size: 20px;
+    }
+    .text1
+    {
+        width: 100%;
+    }
+    .text1 h1 
+    {
+        font-size: 50px;
+    }
+    .text1 p 
+    {
+        font-size: 17;
+        width: 300px;
+    }
+}
+
+
+
+
+
+
+.secion2
+{
+   width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    font-size: 20px;
+    color: white;
+
+}
+.secion2 h1
+{
+    font-size: 50px;
+    color: #b79632;
+}
+.secion2 h2,a
+{
+    font-size: 30px;
+    color: #b79632;
+}
+
+
+.secion2-div1
+{
+    max-width: 480px;
+    width: auto;
+    padding: 40px;
+}
+
+
+.secion2-div2
+{
+    max-width: 580px;
+    height: 80%;
+    width: auto;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.secion2 img
+{
+    width: 70px;
+    height: 70px;
+}
+.secion2-div2-part
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+.secion2-div2-part-text
+{
+    max-width: 380px;
+    width: auto;
+    padding: 10px;
+}
+.link a
+{
+    text-decoration: none;
+}
+.link img
+{
+    height:  20px;
+    width: 20px;
+}
+@media screen and (max-width :700px)
+{
+    /* .secion2-div1,
+    .secion2-div2
+    {
+        padding: 10px;
+    } */
+   .secion2 h1
+   {
+       font-size: 35px;
+   }
+   .secion2 h2,a
+   {
+       font-size: 20px;
+   }
+   .secion2 p 
+   {
+      font-size: 17px;
+   }
+   .secion2 img
+   {
+       width: 50px;
+       height: 50px;
+   }
+   .link img 
+   {
+       width: 15px;
+       height: 15px;
+   }
+}
+
+
+
+
+
+
+
+
+.member
+{
+    width: 100%;
+    margin: 100px 0px;
+    width: 100%;
+    height:400px;
+    background-color: #1b1b1b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.member img
+{
+    width: 500px;
+    height: 80%;
+    border-radius: 10%;
+}
+.text
+{
+    color: white;
+    max-width: 600px;
+    width: auto;
+    font-size: 25px;
+    padding: 0px 40px;
+}
+.years
+{
+    font-size: 140%;
+    color: #b79632;
+}
+@media screen and (max-width :900px)
+{
+    .member
+    {
+        height: 500px;
+    }
+    .member img
+    {
+        width: 350px;
+    }
+    .text
+    {
+        font-size: 18px;
+    }
+    .years
+    {
+        font-size: 140%;
+    }
+}
+
+
+.logos
+{
+    color:  #b79632;
+    width: 100%;
+    text-align: center;
+    display:flex;
+    margin: 50px;
+    flex-direction: column;
+    align-items: center;
+    margin: 100px 0px;
+}
+.logos img
+{
+    width: 150px;;
+}
+.logos-image
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.logos-image1
+{
+    width: 300px;
+    margin-top: 50px ;
+}
+.logos p
+{
+    font-size: 20px;
+    margin-top: 10px;
+}
+.logos h1
+{
+    font-size: 50px;
+}
